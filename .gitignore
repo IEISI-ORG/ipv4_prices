@@ -1,0 +1,17 @@
+# Data: export it yourself from https://auctions.ipv4.global/prior-sales (see README)
+prior_sales*.csv
+*.json.bak
+
+# Planning / scratch (Claude Scholar workspace conventions)
+plan/
+temp/
+.claude/
+.playwright-mcp/
+.superpowers/
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+outputs/
