@@ -19,12 +19,12 @@ kept as published so each update is comparable with the last:
 3. Third-degree polynomial per subnet size, projected to $0.
 4. Exponential decay per subnet size, projected to $1.
 
-**December 2026 additions (sections 5–12).** New, additive diagnostics:
+**December 2026 sections (5–12).** New diagnostics; section 5 replaces the June notebook's unfinished Monte Carlo, which no article used:
 
 5. Monte Carlo (geometric Brownian motion on monthly medians, seeded) with time-to-$1 distributions.
 6. Vintage comparison: the linear and cubic $0 dates recomputed on the data as it stood at each article date.
 7. Mix-shift test: simple mean vs median vs address-weighted price, per-size medians, and a decomposition
-   of any monthly change into within-size repricing and block-mix effects.
+   of the uptick month's change into within-size repricing and block-mix effects.
 8. Sell-side pressure: addresses sold vs transaction count, dollar volume, mean block size.
 9. Concentration in /23–/24 blocks, a trailing volatility band, and large-block liquidity.
 10. Scorecard for the five competing readings of the June 2026 uptick.
@@ -34,8 +34,7 @@ kept as published so each update is comparable with the last:
 Section 3b bootstraps the linear and cubic fits to show how stable each model's $0 date is.
 
 On the 2022 peak: the **monthly average** peaked at $52.19 in February 2022. Individual sales went
-higher, topping out at $60.70 in November 2022, which is the figure behind "above $60" in the articles.
-Section 1a lays the measures side by side.
+higher, topping out at $60.70 in November 2022. Section 1a lays the measures side by side.
 
 ## Data
 
@@ -61,7 +60,7 @@ uv run jupyter notebook ipv4_prices.ipynb
 uv run jupyter nbconvert --to notebook --execute ipv4_prices.ipynb --output executed.ipynb
 ```
 
-Without uv: `pip install pandas numpy matplotlib scikit-learn tqdm jupyter`.
+Without uv: `pip install pandas numpy matplotlib scikit-learn tqdm ipywidgets jupyter`.
 
 Or open it in Colab via the badge at the top of the notebook.
 
