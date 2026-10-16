@@ -1,0 +1,25 @@
+[project]
+name = "ipv4-prices"
+version = "2026.12.0"
+description = "IPv4 secondary-market price trend analysis (IPv4.Global prior-sales data)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "scikit-learn>=1.4",
+    "tqdm>=4.66",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1",
+    "nbconvert>=7.16",
+    "ipykernel>=6.29",
+    "nbstripout>=0.8",
+    "ipywidgets>=8.1",
+]
+
+[tool.uv]
+package = false
