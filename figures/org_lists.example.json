@@ -1,0 +1,22 @@
+{
+  "_comment": "Copy to org_lists.json and fill in. Names are matched as lower-case substrings of the RIR log organisation fields; non_sales entries are [sender regex, recipient regex, note] and an empty recipient regex matches any recipient.",
+  "hyperscalers": [
+    "examplecloud",
+    "another cloud provider"
+  ],
+  "hyperscaler_false_positives": [
+    "examplecloud networks"
+  ],
+  "non_sales": [
+    [
+      "example telco",
+      "example telco subsidiary",
+      "same owner"
+    ],
+    [
+      "example consortium",
+      "",
+      "space handed back to members"
+    ]
+  ]
+}
