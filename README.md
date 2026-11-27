@@ -82,7 +82,7 @@ The methodology and conclusions are written up in these articles, in order:
 1. [IPv4 Address Sale Price Trends](https://medium.com/@terrysweetser_90287/ipv4-address-sale-price-trends-abf45620d34f) (November 2025): the original analysis identifying the 2022 inflection point and the asset-to-technical-debt repricing.
 2. [IPv4 is Technical Debt](https://medium.com/@terrysweetser_90287/ipv4-is-technical-debt-fa6449dc06d4) (December 2025): why the price is collapsing. The cost of the IPv6 substitute is racing to zero.
 3. [IPv4 Sale Price Trends: Update June 2026](https://medium.com/@terrysweetser_90287/ipv4-sale-price-trends-update-june-2026-adcfc27b8662): six-month check-in on the predictions.
-4. November 2026 update: in preparation, using sections 5–12 of this notebook and the figures in [`figures/`](figures/README.md).
+4. [The IPv4 Market Update](https://medium.com/@terrysweetser_90287/the-ipv4-market-update-0149c6167f4b) (November 2026): the market's estimated dollar value from RIR transfer logs, the hyperscalers' exit, and thinning at the small end. Uses sections 5–12 of this notebook and the figures in [`figures/`](figures/README.md).
 
 The argument for *acting* on this, aimed at technical leaders, is the book
 [**Making the IPv6 Decision**](https://www.amazon.com.au/dp/B0H5QQTJXV/) by Terry Sweetser.
