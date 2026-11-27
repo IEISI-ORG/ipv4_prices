@@ -27,6 +27,7 @@ kept as published so each update is comparable with the last:
    of the uptick month's change into within-size repricing and block-mix effects.
 8. Sell-side pressure: addresses sold vs transaction count, dollar volume, mean block size.
 9. Concentration in /23–/24 blocks, a trailing volatility band, and large-block liquidity.
+   9a. Plateau test: the linear trend since April 2026 by size group, with bootstrap intervals and start-date sensitivity.
 10. Scorecard for the five competing readings of the June 2026 uptick.
 11. Predictions ledger: each dated claim from the articles beside its current reading.
 12. Reproduction check against the June 2026 tables (runs when `AS_OF = '2026-06-19'`).
