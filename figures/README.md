@@ -1,6 +1,6 @@
 # Figures for the November 2026 update
 
-The five figures in *IPv4 Sale Price Trends: Update November 2026*. Run from the repository root with `uv run python`.
+The five figures in [*The IPv4 Market Update*](https://medium.com/@terrysweetser_90287/the-ipv4-market-update-0149c6167f4b) (November 2026). Run from the repository root with `uv run python`.
 
 | Figure | What it shows | Script | Input |
 |---|---|---|---|
