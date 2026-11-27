@@ -36,6 +36,9 @@ empty once none did):
 
 Section 3b bootstraps the linear and cubic fits to show how stable each model's $0 date is.
 
+The figures for the November 2026 update, including the market-value estimate built from RIR transfer
+logs, are in [`figures/`](figures/README.md) with their scripts and aggregate data.
+
 On the 2022 peak: the **monthly average** peaked at $52.19 in February 2022. Individual sales went
 higher, topping out at $60.70 in November 2022. Section 1a lays the measures side by side.
 
@@ -79,7 +82,7 @@ The methodology and conclusions are written up in these articles, in order:
 1. [IPv4 Address Sale Price Trends](https://medium.com/@terrysweetser_90287/ipv4-address-sale-price-trends-abf45620d34f) (November 2025): the original analysis identifying the 2022 inflection point and the asset-to-technical-debt repricing.
 2. [IPv4 is Technical Debt](https://medium.com/@terrysweetser_90287/ipv4-is-technical-debt-fa6449dc06d4) (December 2025): why the price is collapsing. The cost of the IPv6 substitute is racing to zero.
 3. [IPv4 Sale Price Trends: Update June 2026](https://medium.com/@terrysweetser_90287/ipv4-sale-price-trends-update-june-2026-adcfc27b8662): six-month check-in on the predictions.
-4. December 2026 update: in preparation, using sections 5–12 of this notebook.
+4. November 2026 update: in preparation, using sections 5–12 of this notebook and the figures in [`figures/`](figures/README.md).
 
 The argument for *acting* on this, aimed at technical leaders, is the book
 [**Making the IPv6 Decision**](https://www.amazon.com.au/dp/B0H5QQTJXV/) by Terry Sweetser.

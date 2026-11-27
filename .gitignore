@@ -15,3 +15,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 outputs/
+
+# Figures: organisation lists stay local (see figures/common.py)
+figures/org_lists.json
