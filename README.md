@@ -12,7 +12,9 @@ structural decline, not a cyclical dip.
 [`ipv4_prices.ipynb`](ipv4_prices.ipynb) runs locally or in Google Colab. It has two parts.
 
 **Published series (sections 1–4).** These are the charts and tables used in the articles below,
-kept as published so each update is comparable with the last:
+kept as published so each update is comparable with the last. The one change is the section 3 chart,
+which now also draws sizes whose cubic never reaches $0 (the published chart skipped them and came out
+empty once none did):
 
 1. Monthly average price, the early-2022 peak, and the steepest monthly drops.
 2. Linear regression per subnet size, projected to $0.
