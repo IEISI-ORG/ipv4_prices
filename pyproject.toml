@@ -3,7 +3,7 @@ name = "ipv4-prices"
 version = "2026.12.0"
 description = "IPv4 secondary-market price trend analysis (IPv4.Global prior-sales data)"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11.5"
 dependencies = [
     "pandas>=2.2",
     "numpy>=2.0",
